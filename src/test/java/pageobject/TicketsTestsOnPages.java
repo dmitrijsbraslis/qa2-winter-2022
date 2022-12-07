@@ -19,5 +19,11 @@ public class TicketsTestsOnPages {
 
         PassengerInfoPage infoPage = new PassengerInfoPage(baseFunc);
         //...
+
+        //Get List<WebElement> with Name, From Airport, To Airport
+        //                            0         1            2
+        // .getText() -> String
+        // String fromAirport = data.get(1).getText() -> "RIX"
+        // Ass.equals(FROM_AIRPORT, fromAirport, "Error message");
     }
 }
