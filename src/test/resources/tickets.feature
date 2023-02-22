@@ -12,7 +12,7 @@ Feature: Tickets reservation
       | seat        | 27         |
 
     And passenger info is:
-      | first_name | Dmitry |
+      | first_name | random |
       | last_name  | Tester |
 
     And home page opened
